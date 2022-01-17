@@ -8,17 +8,14 @@ Estilo para o conteúdo do nosso site
 */
 
 .artigo{
-	width: 1280px;
+	width: 100%;
 	background-color: rgb(200, 200, 200);
-	padding: 40px;
-	margin: 40px auto;
 	text-align: center;
 }
 
 .artigo h1{
 	color:rgb(66, 149, 244);
 	font-size: 23px;
-	font-family: "Tahoma";
 	font-style: normal;
 	font-weight: bold;
 	/*font-variant: small-caps;*/
@@ -28,7 +25,6 @@ Estilo para o conteúdo do nosso site
 	color: #b4b4b4;
 	text-align: left;
 	font-size: 17px;
-	font-family: 'Tahoma';
 	font-style: normal;
 	font-weight: bold;
 	line-height: 40px;
