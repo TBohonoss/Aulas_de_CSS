@@ -7,26 +7,23 @@
 Estilo para o conteúdo do nosso site
 */
 
-.artigo{
-	width: 100%;
-	background-color: rgb(200, 200, 200);
-	text-align: center;
+html, body{
+	height: 100%;
 }
 
-.artigo h1{
-	color:rgb(66, 149, 244);
-	font-size: 23px;
-	font-style: normal;
-	font-weight: bold;
-	/*font-variant: small-caps;*/
+.lista, .lista_2{
+	list-style-position: inside;
+	list-style-type: disc;
+	margin-left: 20px;
 }
 
-.artigo p{
-	color: #b4b4b4;
-	text-align: left;
-	font-size: 17px;
-	font-style: normal;
+.lista .item_3, .lista_2 .item_3{
 	font-weight: bold;
-	line-height: 40px;
-	margin-top: 12px;
 }
+
+.lista li, .lista_2 li{
+	font-size: 18px;
+	color: #4b4b4b;
+	margin-top: 10px;
+}
+
