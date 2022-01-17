@@ -11,19 +11,10 @@ html, body{
 	height: 100%;
 }
 
-.lista, .lista_2{
+ol{
 	list-style-position: inside;
-	list-style-type: disc;
-	margin-left: 20px;
 }
 
-.lista .item_3, .lista_2 .item_3{
-	font-weight: bold;
+ol > li{
+	color:red;
 }
-
-.lista li, .lista_2 li{
-	font-size: 18px;
-	color: #4b4b4b;
-	margin-top: 10px;
-}
-
