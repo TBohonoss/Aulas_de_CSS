@@ -11,14 +11,10 @@ html, body{
 	height: 100%;
 }
 
-.tipo_1{
-	color: rgb(100,100,100);
-}
-
-.link_{
-	font-size: 30px;
-}
-
-.tipo_2{
-	font-size: 40px;
+.article{
+	margin: 0 auto;
+	width: 1280px;
+	height: 10%;
+	min-height: 50%;
+	background: red;
 }
