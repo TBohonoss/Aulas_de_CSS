@@ -1,4 +1,4 @@
-*{
+﻿*{
 	margin: 0;
 	padding: 0;
 }
@@ -15,19 +15,32 @@ html,body{
 	height: 100%; 
 }
 
-.center{
-	box-sizing: content-box;
+.pai{
 	width: 1280px;
 	margin: 0 auto;
-	background-color: gray;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 30px 0;
+	background: blue;
+}
+
+.child{
+	vertical-align:top;
+	display: inline-block;
+	width: 640px;
+	/*Resets para o inline-block funcionar com base nos cálculos*/
+	margin-right: -4px;
+	margin-bottom: -4px;
+	/***/
+	background: red;
+	height: 300px;
 }
 
 
-.artigo{
-	width: 100%;
-	margin-bottom: 40px;
-}
+ span{
+	/* O display inline é o padrão! */
+        /* O display inline serve especialmente para textos. Não podemos definir largura e nem altura. Apenas margins e
+         padding na horizontal(left e right) */
+      display:inline;
+      border-bottom:5px solid blue;
+ }
+
+
