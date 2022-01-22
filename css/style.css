@@ -16,21 +16,25 @@ html,body{
 }
 
 .box{
-	width: 400px;
-	height: 400px;
-	background: gray;
+	width: 40%;
+	height: 300px;
+	color: gray;
 }
 
-.box2{
-	width: 250px;
-	background: red;
-}
 
-.box > .box2 > span{
-	display: inline-block;
+.box > .box2 > p{
+	color: initial;
 	/*
 	width: inherit;
 	height: inherit;
 	background: inherit;
 	*/
 }
+
+/*
+@media screen and (max-width: 480px){
+	.box{
+		height: auto;
+	}
+}
+*/
