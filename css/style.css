@@ -1,4 +1,4 @@
-﻿*{
+*{
 	margin: 0;
 	padding: 0;
 }
@@ -15,26 +15,70 @@ html,body{
 	height: 100%; 
 }
 
-.box{
-	width: 40%;
-	height: 300px;
-	color: gray;
+
+.text[type=text]{
+	background-color: green;
 }
 
-
-.box > .box2 > p{
-	color: initial;
-	/*
-	width: inherit;
-	height: inherit;
-	background: inherit;
-	*/
+input[type=submit]{
+	background-color: blue;
 }
 
 /*
-@media screen and (max-width: 480px){
-	.box{
-		height: auto;
-	}
+
+TEM QUE SER IGUAL!
+
+a[href="http://www.google.com"]{
+	background-color: yellow;
 }
+[href="http://www.google.com"]{
+	background-color: red;
+}
+*/
+
+/*
+
+PROCURE ENTRE OS ESPAÇOS DO ATRIBUTO.
+
+a[attr~="google"]{
+	background-color: blue;
+}
+
+*/
+
+/*
+
+ACHE A PALAVRA GOOGLE EM QUALQUER LUGAR.
+
+a[attr*="google"]{
+	background-color: blue;
+}
+
+*/
+
+/*
+QUANDO COMEÇAMOS COM A PALAVRA GOOGLE SEGUIDO POR UM ACENTO.
+
+a[attr|="google"]{
+	background-color: yellow;
+}
+*/
+
+/*
+QUANDO COMEÇAMOS COM A PALAVRA.
+
+a[attr^="goo"]{
+	background-color: red;
+}
+
+*/
+
+
+/*
+QUANDO TERMINAMOS COM A PALAVRA.
+
+a[attr$="google"]{
+	background-color: yellow;
+}
+
 */
